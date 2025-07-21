@@ -137,8 +137,9 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Currently studying Computer Science Engineering at the KTH Royal Institute of Technology in Stockholm, Sweden.
-            I have a passion for software development, electronics, and maths. I enjoy creating innovative solutions and exploring new ideas.
+            I am a Computer Science Engineer born in Italy, now living in Stockholm, Sweden. <br/>
+            Currently I'm pursuing a Master's degree in  Computer Science Engineering at the KTH Royal Institute of Technology in Stockholm. <br />
+            I have a strong interest in software development, electronics, and mathematics. <br />
           </p>
         </div>
       </motion.section>
@@ -147,7 +148,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+        <h3 className="mb-5 text-lg font-medium">Some of my latest projects:</h3>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
