@@ -196,6 +196,7 @@ export default function Personal() {
                   <div>
                     <h4 className="font-normal dark:text-zinc-100">
                       {job.title}
+                      <img src={job.logo} width={45} height={45} style={{ display: 'inline-block', verticalAlign: 'middle', position: 'relative' }} />
                     </h4>
                     <p className="text-zinc-500 dark:text-zinc-400">
                       {job.company}
@@ -205,6 +206,9 @@ export default function Personal() {
                     {job.start} - {job.end}
                   </p>
                 </div>
+                <h5 className="font-normal dark:text-zinc-300">
+                    <i>{job.description}</i>
+                  </h5>
               </div>
             </a>
           ))}

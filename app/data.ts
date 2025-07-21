@@ -11,6 +11,8 @@ type WorkExperience = {
   title: string
   start: string
   end: string
+  description: string
+  logo: string
   link: string
   id: string
 }
@@ -49,28 +51,24 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'Gravity Gardens',
+    title: 'Embedded Engineer',
+    logo: '/gravity-gardens-logo.png',
+    start: '2025',
     end: 'Present',
-    link: 'https://ibelick.com',
+    description: 'Currently helping to build the future of agriculture.',
+    link: 'https://gravity-gardens.com/',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: 'IIS Janello Torriani',
+    title: 'Electronics and Automation Teacher    ',
+    logo: '/MinisteroIstruzione.png',
+    start: '2023',
+    end: '2025',
+    description: 'Worked as a teacher in the Electronics and Automation department, while pursued my Bachelor\'s degree in Computer Science Engineering.',
+    link: 'https://iistorriani.it',
     id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 
@@ -106,19 +104,15 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/altomarigiulio',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/altomarigiulio',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/giulioaltomari',
   },
 ]
 
