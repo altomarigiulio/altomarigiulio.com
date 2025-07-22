@@ -18,10 +18,13 @@ type WorkExperience = {
 }
 
 type Education = {
+  university: string
   title: string
+  start: string
+  end: string
   description: string
   link: string
-  uid: string
+  id: string
 }
 
 
@@ -71,7 +74,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: 'IIS Janello Torriani',
     title: 'Electronics and Automation Teacher    ',
-    logo: '/MinisteroIstruzione.png',
+    logo: '/miur.png',
     start: '2023',
     end: '2025',
     description: 'Worked as a teacher in the Electronics and Automation department, while pursued my Bachelor\'s degree in Computer Science Engineering.',
@@ -82,31 +85,32 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 
 export const EDUCATION: Education[] = [
-  {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-1',
+   {
+    university: 'KTH Royal Institute of Technology',
+    title: 'Master\'s Degree in Computer Science Engineering      ',
+    start: '2025',
+    end: 'Present',
+    description: 'Sweden\'s largest technical university, known for its cutting-edge research and innovation in technology.',
+    link: 'https://www.kth.se/en',
+    id: 'edu1',
   },
   {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
+    university: 'Politecnico di Milano',
+    title: 'Bachelor\'s Degree in Computer Science Engineering    ',
+    start: '2021',
+    end: '2025',
+    description: 'Italy\'s leading engineering university, recognized for its excellence in engineering and architecture. Developed a strong foundation in computer science and engineering principles, while being a student-worker.',
+    link: 'https://polimi.it',
+    id: 'edu2',
   },
   {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
+    university: 'IIS Janello Torriani',
+    title: 'High School Diploma in IT',
+    start: '2016',
+    end: '2021',
+    description: 'IT high school with a focus on software and programming, where I developed a strong foundation in programming.',
+    link: 'https://iistorriani.it',
+    id: 'work2',
   },
 ]
 
