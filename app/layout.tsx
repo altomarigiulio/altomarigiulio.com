@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: 'Altomari Giulio | Computer Science Engineer',
     template: '%s | Nim'
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description:  'I am a Computer Science Engineer with a passion for software development and open source. I love to create tools that make life easier for developers.',
 };
 
 const geist = Geist({

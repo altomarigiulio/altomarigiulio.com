@@ -142,6 +142,16 @@ export default function Personal() {
             Currently I'm pursuing a Master's degree in  Computer Science Engineering at the KTH Royal Institute of Technology in Stockholm. <br />
             I have a strong interest in software development, electronics, and mathematics. <br />
           </p>
+          <p className="text-zinc-600 dark:text-zinc-400">
+          <a
+                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
+                  href="Altomari_Giulio_CV.pdf"
+                  download="Altomari_Giulio_CV.pdf"
+                >
+                  My CV
+                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
+                </a>  
+          </p>
         </div>
       </motion.section>
 
