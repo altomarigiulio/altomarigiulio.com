@@ -44,7 +44,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'Algorithms and Data Structures project',
     description: 'Final project of the course Algorithms and Data Structures.',
-    link: 'https://motion-primitives.com/',
+    link: '',
     image:
       'tree.png',
     id: 'project1',
