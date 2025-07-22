@@ -2,7 +2,7 @@ type Project = {
   name: string
   description: string
   link: string
-  video: string
+  image: string
   id: string
 }
 
@@ -42,28 +42,37 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+    name: 'Algorithms and Data Structures project',
+    description: 'Final project of the course Algorithms and Data Structures.',
+    link: 'https://motion-primitives.com/',
+    image:
+      'tree.png',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    name: 'Codex Naturalis',
+    description: 'Recreated the board game codex naturalis.',
+    link: '',
+    image:
+      'codex.png',
     id: 'project2',
+  },
+  {
+
+    name: 'IEEE 754 Multiplier',
+    description:
+      'Recreated a floating point multiplier, following the IEEE 754 logic.',
+    link: 'https://github.com/altomarigiulio/IEEE-754-Multiplier-Project',
+    image:
+      'mac.png',
+    id: 'project3',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: 'Gravity Gardens',
-    title: 'Embedded Engineer',
+    title: 'Embedded Engineer       ',
     logo: '/gravity-gardens-logo.png',
     start: '2025',
     end: 'Present',
@@ -85,7 +94,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 
 export const EDUCATION: Education[] = [
-   {
+  {
     university: 'KTH Royal Institute of Technology',
     title: 'Master\'s Degree in Computer Science Engineering      ',
     start: '2025',
