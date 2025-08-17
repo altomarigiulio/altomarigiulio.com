@@ -205,9 +205,15 @@ export default function Personal() {
               <div className="relative h-full w-full rounded-[15px] bg-white p-4 dark:bg-zinc-950">
                 <div className="relative flex w-full flex-row justify-between">
                   <div>
-                    <h4 className="font-normal dark:text-zinc-100">
-                      {job.title}
-                      <img src={job.logo} width={30} height={30} style={{ display: 'inline-block', verticalAlign: 'middle', position: 'relative' }} />
+                    <h4 className="font-normal dark:text-zinc-100 flex items-center gap-2">
+                      <span>{job.title}</span>
+                      <img 
+                        src={job.logo} 
+                        alt={`${job.company} logo`}
+                        width={job.company === 'Solvigo' ? 80 : 30} 
+                        height={job.company === 'Solvigo' ? 80 : 30} 
+                        className={`inline-block`}
+                      />
                     </h4>
                     <p className="text-zinc-500 dark:text-zinc-400">
                       {job.company}

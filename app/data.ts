@@ -71,6 +71,16 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
+    company: 'Solvigo',
+    title: 'Software Engineer       ',
+    logo: '/solvigo-logo.png',
+    start: '2025',
+    end: 'Present',
+    description: 'Writing some software in Sweden.',
+    link: 'https://solvigo.se/',
+    id: 'work1',
+  },
+  {
     company: 'Gravity Gardens',
     title: 'Embedded Engineer       ',
     logo: '/gravity-gardens-logo.png',
@@ -78,7 +88,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     end: 'Present',
     description: 'Currently helping to build the future of agriculture.',
     link: 'https://gravity-gardens.com/',
-    id: 'work1',
+    id: 'work2',
   },
   {
     company: 'IIS Janello Torriani',
@@ -88,7 +98,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     end: '2025',
     description: 'Worked as a teacher in the Electronics and Automation department, while pursued my Bachelor\'s degree in Computer Science Engineering.',
     link: 'https://iistorriani.it',
-    id: 'work2',
+    id: 'work3',
   },
 ]
 
